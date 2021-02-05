@@ -1,0 +1,7 @@
+docker build <pathFolder> -t <imageName> : Build le conteneur
+docker run <imageName> : Execute l'image 
+docker ps -a : Listes des conteneurs connu
+docker start <containerName> : Démarre le containeur
+docker stop <containerName> : Arrete le containeur
+docker rm <containerName> : Supprime le containeur
+docker rmi <imageName> : Supprime l'image 
