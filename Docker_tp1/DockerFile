@@ -15,4 +15,4 @@ COPY . /app/
 RUN pip3 install --requirement ./requirements.txt
 EXPOSE 5000
 
-CMD [ "python3", "./app/app.py", "--host", "0.0.0.0"]
+CMD [ "python3", "./app/app.py", "--host"]
