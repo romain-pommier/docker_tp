@@ -15,4 +15,8 @@ RUN echo "**** install Python ****" && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
     \
     echo "**** install vim ****" && \
-    apk add vim
+    apk add vim && \
+    \
+    echo "**** install requirements.txt ****" && \
+    pip install -r requirements.txt
+   
